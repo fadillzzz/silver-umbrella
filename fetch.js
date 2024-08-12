@@ -25,7 +25,7 @@ for (const arg of args) {
   if (isValidUrl(arg)) {
     urls.push(arg);
   } else {
-    console.warning(`Invalid URL: ${arg}. Ignoring...`);
+    console.warn(`Invalid URL: ${arg}. Ignoring...`);
   }
 }
 
